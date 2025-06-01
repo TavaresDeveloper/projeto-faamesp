@@ -656,8 +656,11 @@ progress {
  
 }
  @media(min-width: 620px){
-    .bg{
-    max-width: 30%;
+    .texto-incial{
+    font-size: 18px;
+  }
+  .letreio{
+    font-size: 17px;
   }
   }
 @media (min-width: 768px) {
