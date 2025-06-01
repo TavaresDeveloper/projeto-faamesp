@@ -658,6 +658,10 @@ progress {
   .container-md, .container-sm, .container {
     max-width: 720px;
   }
+  .masthead-heading{
+    flex-wrap: wrap;
+    font-size: 18px;
+  }
 }
 @media (min-width: 992px) {
   .container-lg, .container-md, .container-sm, .container {
