@@ -653,7 +653,13 @@ progress {
   .container-sm, .container {
     max-width: 540px;
   }
+ 
 }
+ @media(min-width: 620px){
+    .bg{
+    max-width: 30%;
+  }
+  }
 @media (min-width: 768px) {
   .container-md, .container-sm, .container {
     max-width: 720px;
@@ -662,9 +668,7 @@ progress {
     flex-wrap: wrap;
     font-size: 18px;
   }
-  .bg{
-    max-width: 50%;
-  }
+  
 }
 @media (min-width: 992px) {
   .container-lg, .container-md, .container-sm, .container {
